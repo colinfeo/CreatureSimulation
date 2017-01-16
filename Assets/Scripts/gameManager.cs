@@ -28,6 +28,7 @@ public class gameManager : MonoBehaviour {
         if (Input.GetMouseButtonUp(1))
         {
             terrainScript.GenerateTerrainDistribution(Time.time);
+            terrainScript.
         }
     }
 }
